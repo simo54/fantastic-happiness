@@ -8,5 +8,5 @@ test('renders learn react link', () => {
 })
 
 it('Exists', () => {
-  expect(2 + 3).toBe(4)
+  expect(2 + 4).toBe(6)
 })
