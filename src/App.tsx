@@ -1,4 +1,4 @@
-import ROUTESLIST, { RenderRoutes } from './routes/Routes';
+import ROUTESLIST, { RenderRoutes } from './routes/Routes'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <RenderRoutes routes={ROUTESLIST} />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
