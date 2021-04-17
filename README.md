@@ -6,6 +6,8 @@
 
 3. Prettier error => **Delete ·· prettier/prettier** issuse solved [here](https://github.com/prettier/eslint-plugin-prettier/issues/219)
 
+4. Husky issue with custom hooks solved [here](https://github.com/typicode/husky/issues/445)
+
 ## Guides
 
 [Scale Routing](https://www.ryanjyost.com/react-routing/)
