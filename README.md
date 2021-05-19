@@ -21,4 +21,4 @@ Many times I found myself on "losing" time on download pretty much the same thin
 
 ## Guides
 
-[Scale Routing](https://www.ryanjyost.com/react-routing/)
+[Scale Routing](https://www.ryanjyost.com/react-routing/) [Media Queries](https://codepen.io/ericrasch/pen/HzoEx)
