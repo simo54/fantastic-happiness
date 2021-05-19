@@ -1,4 +1,4 @@
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom' // <-- New code
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'; // <-- New code
 
 const ROUTES = [
   { path: '/', key: 'ROOT', exact: true, component: () => <h1>Log in</h1> },
@@ -21,9 +21,9 @@ const ROUTES = [
       },
     ],
   },
-]
+];
 
-export default ROUTES
+export default ROUTES;
 
 /**
  * Render a route with potential sub routes
@@ -36,7 +36,7 @@ function RouteWithSubRoutes(route: any): JSX.Element {
       exact={route.exact}
       render={props => <route.component {...props} routes={route.routes} />}
     />
-  )
+  );
 }
 
 /**
@@ -47,10 +47,10 @@ export function RenderRoutes({ routes }: { routes: any[] }): JSX.Element {
     <Router>
       <Switch>
         {routes.map((route, i) => {
-          return <RouteWithSubRoutes key={route.key} {...route} />
+          return <RouteWithSubRoutes key={route.key} {...route} />;
         })}
         <Route component={() => <h1>Not Found!</h1>} />
       </Switch>
     </Router>
-  )
+  );
 }
