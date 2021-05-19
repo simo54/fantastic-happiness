@@ -1,4 +1,15 @@
-# fantastic-happiness
+# My personal Template Starter Projects
+
+Many times I found myself on "losing" time on download pretty much the same things. So I decided to create a public template open to everyone.
+
+## Tech Stack
+
+- React
+- Typescript
+- Less
+- Husky
+
+## Issues List
 
 1. Issue "Could not find a declaration file for module 'react/jsx-runtime'." solved [here](https://github.com/facebook/create-react-app/issues/10109)
 
